@@ -37,7 +37,7 @@ const functionArray = (req, res) => {
             sum: sum,
             concat_string: concatReverseAltCaps,
         }
-        res.json(response)
+        res.status(200).json(response)
     }
 
     catch (Error) {
